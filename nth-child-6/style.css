@@ -20,6 +20,7 @@ li:nth-child(odd){
     background-color: red;
 }
 
+/* https://github.com/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/yaghubi-asiye/css-sample.git */
 
 li:nth-child(even){
     background-color: rgb(21, 39, 207);
@@ -27,3 +28,4 @@ li:nth-child(even){
 li:last-child{
     background-color: green;
 }
+/* alskfjkfjsadlkfjklfj */
