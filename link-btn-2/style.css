@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* pseudo class */
+
+
+
+
+
+
+
+    a:link{
+        color: rgb(255, 0, 212);
+    }
+
+
+    a:hover{
+        color: chartreuse;
+        background-color: blanchedalmond;
+    }
+
+
+    a:active{
+        color: chocolate;
+    }
+
+    a:visited{
+        color: darkcyan;
+    }
+
+    a{
+        border: 1px solid rgb(87, 207, 107);
+        background-color: darkcyan;
+
+        border-radius: 10px;
+
+        padding: 5px 7px;
+        color: black !important;
+
+    }
+
+
+
+
+
+
+
+
+.a:active{
+color: red;
+}
+
+.a:visited{
+    color: green;
+}
+
+
+#btn:hover{
+    color: rgb(53, 153, 199);
+    background-color: blueviolet;
+}
+
+#btn{
+    background-color: red;
+    color: yellow;
+    border: none;
+    padding:  10px 20px;
+}
+
+.btn:hover{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 50%;
+}

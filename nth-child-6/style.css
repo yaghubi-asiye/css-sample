@@ -1,0 +1,29 @@
+body {
+    font-family: 'Gandom', Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Gandom';
+    src: url('./font/Gandom.eot');
+
+    src: url('./font/Gandom.eot?#iefix');
+
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+}
+
+li:nth-child(odd){
+    background-color: red;
+}
+
+
+li:nth-child(even){
+    background-color: rgb(21, 39, 207);
+}
+li:last-child{
+    background-color: green;
+}

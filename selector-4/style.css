@@ -1,0 +1,33 @@
+
+
+@font-face {
+    font-family: 'Gandom';
+    src: url(./);
+}
+
+body {
+    font-family: 'Gandom',Arial, Helvetica, sans-serif;
+}
+
+div>p{
+    background-color: red;
+}
+div p{
+    /* background-color: black; */
+}
+div + p{
+    background-color: green;
+}
+a[target="_blank"]{
+    background-color: aqua;
+}
+
+.label::after{
+    content: '*';
+    color: red;
+}
+
+.label::before{
+    content: '*kdsajflaskdhfaskfh';
+    color: rgb(31, 27, 216);
+}
